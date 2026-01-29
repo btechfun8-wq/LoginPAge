@@ -1,0 +1,103 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe ui", Arial, Helvetica, sans-serif;
+}
+
+
+/* body  */
+body{
+    background: linear-gradient(to right, #6a11cb #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* min-height: 100vh; */
+    background: url('ai-generated-9241538_1280.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 0 100px; */
+    display: flex;
+    /* align-items: flex-end; */
+}
+
+/* Container  */
+
+.container{
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+}
+
+/* heading  */
+
+.container h2{
+    padding-bottom: 20px;
+    color: #333;
+}
+
+/* inputs */
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus{
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 115, 252, 0.4);
+}
+
+/* buttons */
+
+button{
+    width: 100%;
+    padding: 12px;
+    margin-top:15px;
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #1a5fd4;
+}
+
+/* Links */
+p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a{
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+/* Error Message */
+#errorMsg{
+    margin-top: 15px;
+    font-size: 14px;
+    color: red;
+}
